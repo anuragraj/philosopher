@@ -28,7 +28,7 @@ For the first step we will download and format a database file using the _databa
 We are only going to need reviewed sequences and we are adding decoys with the _rev__ tag. After executing the line above, you will see that a new file was created on you local folder, the file name contains the current date, the **td** indicated that this file is a target-decoy database. The database is also converted into a proper data structure inside the workspace in order to be used later.
 
 
-### 3. Running a Database Search
+### 3. Database Search
 
 For the database search, first we need to print a parameter file:
 
@@ -41,16 +41,16 @@ After setting your parameter file (you can use the publication cited above as a 
 The search should be done in a few minutes since this is a small data file. As a result you now have a new file called _Velos005137.pep.xml_
 
 
-### 4. Running PeptideProphet
+### 4. PeptideProphet
 
 The next step is to run PeptideProphet to validate the peptide assignments:
 
-`philosopher peptideprophet --database 2016-11-28-td-186497.fas --accmass --decoy rev_ --decoyprobs --nonparam pf.pep.xml`
+`philosopher peptideprophet --database 2016-11-28-td-186497.fas --accmass --decoy rev_ --decoyprobs --nonparam Velos005137.pep.xml`
 
 You will see on the terminal screen the same output you normally see when running PeptideProphet from TPP. If everything runs OK, you will have a new file called _interact-Velos005137.pep.xml_ as a result.
 
 
-### 5. Running ProteinProphet
+### 5. ProteinProphet
 
 Now we can run the protein inference step and generate a protXML file:
 
