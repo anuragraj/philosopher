@@ -37,6 +37,10 @@ Use the EM to compute probability given the confidence.
 
 Do NOT use peptide degeneracy information when assessing proteins.
 
+`--excludemods`
+
+Exclude modified peptides (aside from those identified with variable modifications or isotope error correction) to be used for protein inference
+
 `--fpkm`
 
 Model protein FPKM values.
