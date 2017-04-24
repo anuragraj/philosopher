@@ -70,16 +70,7 @@ Running the above command with only a pepXML will give you the current levels fo
 The _filter_ algorithm can be applied in different ways, using different strategies or even applying razor peptides. here it falls on you to choose the best method to analyze your data. The program will output in the screen a log with the scoring results, all the processed data will be stored inside your workspace for further analysis.
 
 
-### 7. Label-free quantification
-
-After having created the binary file with the experiment results, we can proceed to calculate spectral counting and the MS1 intensity quantification:
-
-`philosopher freequant --dir . --ext mzML`
-
-The quantification values will be stores in the workspace, no output will be created.
-
-
-### 8. Reporting
+### 7. Reporting
 
 Now we can inspect the experiment results by printing the PSM, peptide and protein reports:
 
