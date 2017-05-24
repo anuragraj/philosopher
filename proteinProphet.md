@@ -37,9 +37,9 @@ Use the EM to compute probability given the confidence.
 
 Do NOT use peptide degeneracy information when assessing proteins.
 
-`--excludemods`
+`--maxppmdiff`
 
-Exclude modified peptides (aside from those identified with variable modifications or isotope error correction) to be used for protein inference
+Maximum peptide mass difference in PPM (default 20)
 
 `--fpkm`
 
