@@ -14,11 +14,11 @@ a pre-formed combined protXML file
 
 `--pepProb`
 
-minimun peptide probability (default "0.5")
+minimun peptide probability (default 0.5)
 
 `--prtProb`
 
-minimun protein probability (default "0.9")
+minimun protein probability (default 0.9)
 
 
 ## Example
