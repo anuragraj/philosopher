@@ -73,6 +73,10 @@ Leave alone deltaCn*, Mascot*, and Comet* results from results (default Penalize
 
 Enable MALDI mode.
 
+`--masswidth`
+
+model mass width (default 5.0)
+
 `--minpintt`
 
 Minimum number of NTT in a peptide used for positive pI model (default 2).
