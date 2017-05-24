@@ -14,7 +14,7 @@ The contaminant tag used on contaminant sequences (default "con_").
 
 `--ion`
 
-Peptide ion FDR level (default "0.01").
+Peptide ion FDR level (default 0.01).
 
 `--models`
 
@@ -22,11 +22,11 @@ Print model distribution for the analyzed pepXML.
 
 `--pep`
 
-Peptide FDR level (default "0.01")
+Peptide FDR level (default 0.01)
 
 `--pepProb`
 
-top peptide probability treshold for the FDR filtering (default "0.7")
+top peptide probability treshold for the FDR filtering (default 0.7)
 
 `--pepxml`
 
@@ -38,11 +38,11 @@ Apply the picked FDR algorithm before the protein scoring.
 
 `--prot`
 
-Protein FDR level (default "0.01").
+Protein FDR level (default 0.01).
 
 `--protProb`
 
-Protein probability threshold for the FDR filtering (not used with the razor algorithm) (default "0.5").
+Protein probability threshold for the FDR filtering (not used with the razor algorithm) (default 0.5).
 
 `--protxml`
 
@@ -51,7 +51,7 @@ Path to the protXML file path.
 
 `--psm`
 
-PSM FDR level (default "0.01").
+PSM FDR level (default 0.01).
 
 `--razor`
 
