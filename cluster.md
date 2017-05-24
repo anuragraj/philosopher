@@ -14,7 +14,7 @@ UniProt proteome ID for retrieving annotation features.
 
 `--level`
 
-cluster identity level (default "0.9")
+cluster identity level (default 0.9)
 
 
 ## Example
