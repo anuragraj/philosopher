@@ -18,15 +18,15 @@ Spectra file extension (mzML, mzXML).
 
 `--ptw`
 
-Specify the time windows for the peak (minute) (default "0.2").
+Specify the time windows for the peak (minute) (default 0.2).
 
 `--rtw`
 
-Specify the retention time window for XIC (minute) (default "3").
+Specify the retention time window for XIC (minute) (default 3).
 
 `--tol`
 
-M/Z tolerance in PPM (default "10").
+M/Z tolerance in PPM (default 10).
 
 
 ## Example
