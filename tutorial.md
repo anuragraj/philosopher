@@ -14,7 +14,7 @@ If you need help with the commands, you can run them using the `--help` flag, th
 
 A Workspace is a directory containing your data to be analyzed. To create one you need to execute the __init__ command, this will create a special folder which will keep your processed data in a binary format. If you are working on a Unix system, the folder will not be visible to you.
 
-`philosopher init`
+`philosopher workspace --init`
 
 From now on, all the following steps should be executed inside the workspace.
 
