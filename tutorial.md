@@ -81,7 +81,7 @@ Now we can inspect the experiment results by printing the PSM, peptide and prote
 
 Finally, for the last step, backup your data just in case you wish to print the reports again later.
 
-`philosopher backup`
+`philosopher workspace --backup`
 
 
 ### Concluding remarks
