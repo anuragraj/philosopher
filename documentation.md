@@ -19,11 +19,7 @@ Here you will find some more information about Philosopher's commands and functi
 
 ### Workspace management
 
-[Init](init.md)
-
-[Clean](clean.md)
-
-[Backup](backup.md)
+[Workspace](workspace.md)
 
 
 ### Database handling
