@@ -1,6 +1,6 @@
 ## Workspace management
 
-Philosopher works with the concept of workspaces, all processed and parsed data is stored localy in a custom binary format providing a more efficient way of handlign data.
+Philosopher works with the concept of workspaces, all processed and parsed data is stored localy in a custom binary format providing a more efficient way of handling data.
 
 ### Usage
 
@@ -10,7 +10,7 @@ Philosopher works with the concept of workspaces, all processed and parsed data 
 
 `--init`
 
-Initialize the workspace. Should be executed on the place where the other files are.
+Initialize the workspace. Should be executed on the directory where the experimental files are.
 
 `--backup`
 
