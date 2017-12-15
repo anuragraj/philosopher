@@ -14,7 +14,7 @@ Allows you to add one or more custom sequences to your database. Only UniProt FA
 
 `--annotate`
 
-Restore the workspace database binary file for the analysis. Necessary if the current workspace database structure is lost or broken.
+Creates a indexed binary representation of the database for the analysis.
 
 `--contam`
 
@@ -22,7 +22,7 @@ Add 116 common contaminants found in LC-MS/MS experiments. More information can 
 
 `--custom`
 
-Skips the downloading of a fresh database and use an existing file instead. The custom file will also be used to build decoys and contaminants if desired.
+Skips the downloading of a fresh database and use an existing one instead. The custom file will also be used to create decoys and contaminants if desired.
 
 `--enzyme`
 
@@ -37,11 +37,11 @@ The default option is _trypsin_.
 
 `--id`
 
-The UniProt Proteome ID used to find and download an organism proteome.
+The Proteome ID used to find and download an organism proteome. See below wehre to find the ID.
 
 `--isoform`
 
-add isoform sequences to the proteome download.
+Allows isoform sequences to be added to the download.
 
 `--prefix`
 
@@ -62,11 +62,11 @@ Download the reviewed version of the human proteome, containing isoforms and con
 
 `philospher database --id UP000005640 --reviewed --contam`
 
-Prepare a custom protein FASTA file for the analysis (skip the download)
+Prepare a custom protein FASTA file for the analysis (skip the download).
 
 `philosopher database --custom protein.fas --contam`
 
-Download the complete human proteome and add external sequences from a FASTA file.
+Download the complete human proteome and add external sequences from another FASTA file.
 
 `philosopher database --id UP000005640 -add spikes.fas`
 
