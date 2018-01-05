@@ -3,7 +3,7 @@ This guide will show you how Philosopher can be used for a complete proteomics d
 The tutorial will not discuss the peculiarities of each database search parameter or the advantages of each FDR scoring algorithm, the goal here is to demonstrate how simple it is to run an analysis. After mastering how to execute Philosopher, you can work on the more appropriate settings.
 
 ## What are the Basic Steps ?
-Your data analysis needs to follow a certain logic of execution. Each step will do something different with your data and gice you something back. You do not necessairily need to execute all the commands like that, some of the commands like the Prophets can be used with data processed somewhere else, for example. Take this as a "default" order to get your results.
+Your data analysis needs to follow a certain logic of execution. Each step will do something different with your data and give you something back. You do not necessarily need to execute all the commands like that, some of the commands like the Prophets can be used with data processed somewhere else, for example. Take this as a "default" order to get your results.
 
 1. Create a Workspace
 2. Annotate or download a database
@@ -17,7 +17,7 @@ Your data analysis needs to follow a certain logic of execution. Each step will 
 9. Report
 10. Backup and Clean
 
-Philosopher also provides some extra commands in case you need to analyse your data in a different way:
+Philosopher also provides some extra commands in case you need to analyze your data in a different way:
 
 1. Cluster (Protein report based on protein clusters, optional)
 2. Abacus  (Combined analysis of LC-MS/MS and cohorts, optional)
@@ -30,7 +30,7 @@ If you need help with the commands, you can run them using the `--help` flag, th
 
 
 ### 1. Creating a Workspace
-A Workspace is a directory containing your data to be analyzed. To create one you need to execute the __workspace__ command followed by the `--init` parameter, this will transform your current directory into a Philosopher workspace, all processed data will be sotred in a special binary format for easy and fast access.
+A Workspace is a directory containing your data to be analyzed. To create one you need to execute the __workspace__ command followed by the `--init` parameter, this will transform your current directory into a Philosopher workspace, all processed data will be sorted in a special binary format for easy and fast access.
 
 `philosopher workspace --init`
 
