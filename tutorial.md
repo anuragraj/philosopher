@@ -9,7 +9,7 @@ Your data analysis needs to follow a certain logic of execution. Each step will 
 2. Annotate or download a database
 3. Database search using Comet
 4. PeptideProphet
-5. InterProphet or PTMProphet (optional) <-- these two guys here will update your PeptideProphet results
+5. InterProphet or PTMProphet (optional) <-- these will update your PeptideProphet results
 6. ProteinProphet
 7. Filter
 8. Freequant (MS1 quantification, optional)
