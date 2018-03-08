@@ -70,3 +70,7 @@ Here you will find some more information about Philosopher's commands and functi
 
 ### Peptide and protein report
 [Report](report.md)
+
+
+### Automated analysis
+[Pipeline](pipeline.md)
