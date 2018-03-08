@@ -37,6 +37,10 @@ Semi-supervised mode, protein name prefix to identify Decoy entries.
 
 Compute possible non-zero probabilities for Decoy entries on the last iteration.
 
+`--enzyme`
+
+Enzyme used in sample
+
 `--exclude`
 
 Exclude deltaCn*, Mascot*, and Comet* results from results (default Penalize * results).
