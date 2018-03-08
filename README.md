@@ -29,6 +29,7 @@ Philosopher provides easy access to third-party tools and custom algorithms allo
   - Sequential FDR estimation for large data sets using filtered PSM and proteins lists.
   - PickedFDR for scalable estimations.
   - Razor peptide assignment for better quantification and interpretation.
+  
 
 - Label-free quantification via Spectral counting and MS1 Quantification.
 
