@@ -2,7 +2,7 @@ Peptide Spectrum Matching using the Comet database search engine.
 
 
 ## Version
-Comet release 2016.01.rev 2
+Comet release 2017.01 rev. 4
 
 
 ## Usage
