@@ -3,7 +3,7 @@ Multi-level integrative analysis of shotgun proteomic data
 
 ## Version
 
-iProphet v4.8
+iProphet v5.01
 
 
 ## Usage
