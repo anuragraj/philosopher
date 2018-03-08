@@ -3,7 +3,7 @@ Statistical validation of protein identification based on peptide assignment to 
 
 ## Version
 
-ProteinProphet v4.8
+ProteinProphet v5.01
 
 
 ## Usage
