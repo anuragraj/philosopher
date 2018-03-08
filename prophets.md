@@ -5,4 +5,4 @@ None, Philosopher uses the same implementation found in TPP.
 
 ### Prophets version
 
-Currently Philosopher provides the _Prophets_ v4.8
+Currently Philosopher provides the _Prophets_ v5.01
