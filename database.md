@@ -14,7 +14,7 @@ Allows you to add one or more custom sequences to your database. Only UniProt FA
 
 `--annotate`
 
-Creates a indexed binary representation of the database for the analysis.
+Process a ready-to-use database.
 
 `--contam`
 
@@ -37,7 +37,7 @@ The default option is _trypsin_.
 
 `--id`
 
-The Proteome ID used to find and download an organism proteome. See below wehre to find the ID.
+The Proteome ID used to find and download an organism proteome. See below where to find the ID.
 
 `--isoform`
 
