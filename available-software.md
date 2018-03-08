@@ -2,6 +2,10 @@
 
 Philosopher provides easy access to the following third-party software:
 
+* [ProteoWizard msconvert](https://www.nature.com/articles/nbt.2377)
+
+* [ProteoWizard idconvert](https://www.nature.com/articles/nbt.2377)
+
 * [Comet](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200439/abstract)
 
 * [PeptideProphet](http://peptideprophet.sourceforge.net/pep-proph.pdf)
@@ -10,10 +14,12 @@ Philosopher provides easy access to the following third-party software:
 
 * [iProphet](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3237071/)
 
+* [PTMProphet](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4506239/)
+
 
 ### Available Implementations
 
-The following algorithms are available as complete or partial native implementations:
+The following algorithms are available as complete or partial *native* implementations:
 
 * [moFF](http://www.nature.com/nmeth/journal/v13/n12/full/nmeth.4075.html)
 
