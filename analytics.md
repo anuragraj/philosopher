@@ -5,11 +5,11 @@ for a new project.
 
 
 ## Is the program collecting data from my computer?
-No! No data is collected from your user, computer, network or work enviroment. The program is not constantly collecting anything nor monitoring time-based, activity-based or behavioural-based usage.
+No! No data is collected from your user, computer, network or work environment. The program is not constantly collecting anything nor monitoring time-based, activity-based or behavioral-based usage.
 
 
 ## What kind of data Philosopher is reporting back ?
-We take advantage of Google Analytics for usage report, it is the same technology used by thousands of websites to monitor users. Differently from all those web pages, we are __not__ monitoring user behaviour, the only piece of information collected is the geographical location of the user and the current time.
+We take advantage of Google Analytics for usage report, it is the same technology used by thousands of websites to monitor users. Differently from all those web pages, we are __not__ monitoring user behavior, the only piece of information collected is the geographical location of the user and the current time.
 
 
 ## Why you just don't use the download count as a usage statistics ?
@@ -23,4 +23,3 @@ Yes! If you have any concerns, feel free to check the source code.
 ## Can I turn this option off ?
 Yes, you can. Reporting is absolutely optional and it will not reflect on or limit your experience with the program.
 When creating a new workspace, just add the parameter `--analytics false` to it.
-

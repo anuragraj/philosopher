@@ -12,17 +12,9 @@ Quantify and compare the protein nature and spectral counting values between 2 o
 
 Folder path containing the raw files
 
-`--ext`
-
-Spectra file extension (mzML, mzXML).
-
 `--ptw`
 
 Specify the time windows for the peak (minute) (default 0.2).
-
-`--rtw`
-
-Specify the retention time window for XIC (minute) (default 3).
 
 `--tol`
 

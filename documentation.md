@@ -40,6 +40,8 @@ Here you will find some more information about Philosopher's commands and functi
 
 [ProteinProphet](proteinProphet.md)
 
+[PTMProphet](ptmprophet.md)
+
 
 ### Statistical scoring and FDR evaluation
 

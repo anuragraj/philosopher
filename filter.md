@@ -1,4 +1,4 @@
-A custom algorithm for MS/MS data filtering and false discovery rate estimation.
+A custom algorithm for MS/MS data filtering and multi-level false discovery rate estimation.
 
 
 ## Usage
@@ -8,13 +8,14 @@ A custom algorithm for MS/MS data filtering and false discovery rate estimation.
 
 ## Flags
 
-`--con`
-
-The contaminant tag used on contaminant sequences (default "con_").
 
 `--ion`
 
 Peptide ion FDR level (default 0.01).
+
+`--mapmodels`
+
+Map modifications acquired by an open search.
 
 `--models`
 
@@ -26,7 +27,7 @@ Peptide FDR level (default 0.01)
 
 `--pepProb`
 
-top peptide probability treshold for the FDR filtering (default 0.7)
+top peptide probability threshold for the FDR filtering (default 0.7)
 
 `--pepxml`
 
@@ -48,7 +49,6 @@ Protein probability threshold for the FDR filtering (not used with the razor alg
 
 Path to the protXML file path.
 
-
 `--psm`
 
 PSM FDR level (default 0.01).
@@ -64,6 +64,10 @@ Alternative algorithm that estimates FDR using both filtered PSM and Protein lis
 `--tag`
 
 The decoy prefix used on decoy sequences (default "rev_").
+
+`--weight`
+
+Threshold for defining peptide uniqueness (default 1).
 
 
 ## Examples

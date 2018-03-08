@@ -3,7 +3,7 @@ Statistical validation of peptide assignments for MS/MS Proteomics data
 
 ## Version
 
-PeptidProphet v4.8
+PeptidProphet v5.01
 
 
 ## Usage
@@ -51,7 +51,7 @@ Use expectation value as the only contributor to the f-value for modeling.
 
 `--forcedistr`
 
-Bypass quality control checks, report model despite bad modelling.
+Bypass quality control checks, report model despite bad modeling.
 
 `--glyc`
 
@@ -59,7 +59,7 @@ Enable peptide Glyco motif model.
 
 `--icat`
 
-Apply ICAT model (default Autodetect ICAT).
+Apply ICAT model (default Auto detect ICAT).
 
 `--ignorechg`
 
@@ -107,7 +107,7 @@ Use Gamma distribution to model the negative hits.
 
 `--noicat`
 
-Do no apply ICAT model (default Autodetect ICAT).
+Do no apply ICAT model (default Auto detect ICAT).
 
 `--nomass`
 
@@ -147,7 +147,7 @@ Enable peptide pI model.
 
 `--ppm`
 
-Use ppm mass error instead of Daltons for mass modeling.
+Use ppm mass error instead of Dalton for mass modeling.
 
 `--rt`
 
